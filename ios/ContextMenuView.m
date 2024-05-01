@@ -34,6 +34,7 @@
 
 - (void)insertReactSubview:(UIView *)subview atIndex:(NSInteger)atIndex
 {
+  NSLog(@"Working")
   if ([subview.nativeID isEqualToString:@"ContextMenuPreview"]) {
     _customView = subview;
     return;
